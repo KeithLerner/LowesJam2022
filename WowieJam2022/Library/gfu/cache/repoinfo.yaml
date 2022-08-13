@@ -13,15 +13,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 1
-<<<<<<< HEAD
-  lastUpdatedAtString: 2022-08-12T22:22:19.307-04:00
-  initializedAtString: 2022-08-12T22:22:19.307-04:00
-=======
-  lastUpdatedAtString: 2022-08-12T18:51:38.834-07:00
-  initializedAtString: 2022-08-12T18:51:38.834-07:00
->>>>>>> main
+  lastUpdatedAtString: 2022-08-13T16:29:45.840-04:00
+  initializedAtString: 2022-08-13T13:26:12.318-04:00
   currentGitRemote:
-    name: origin
+    name: GitHubOrigin
     url: https://github.com/KeithLerner/LowesJam2022.git
     login: 
     user: 
@@ -30,14 +25,14 @@ MonoBehaviour:
     token: 
   currentGitBranch:
     name: main
-    tracking: origin/main
+    tracking: GitHubOrigin/main
   currentConfigBranch:
     name: main
     remote:
-      name: origin
+      name: GitHubOrigin
       url: https://github.com/KeithLerner/LowesJam2022.git
     trackingBranch: main
   currentConfigRemote:
-    name: origin
+    name: GitHubOrigin
     url: https://github.com/KeithLerner/LowesJam2022.git
   currentHead: 

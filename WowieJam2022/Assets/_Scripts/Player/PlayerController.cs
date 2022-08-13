@@ -10,29 +10,55 @@ public class PlayerController : MonoBehaviour
     {
         public float MaxSpeed;
         public float Acceleration;
-        public float Deceleration;
 
-        public MovementSettings(float maxSpeed, float acceleration, float deceleration)
+        public MovementSettings(float maxSpeed, float acceleration)
         {
             this.MaxSpeed = maxSpeed;
             this.Acceleration = acceleration;
-            this.Deceleration = deceleration;
         }
     }
 
+    [Header("Body")]
+    [SerializeField] private Transform head;
+    [SerializeField] private Transform feet;
+    public float CharacterHeight { get { return Vector3.Distance(feet.position, head.position); } }
+
     [Header("Movement Settings")]
     [SerializeField] private float coyoteTime = .25f;
-    [SerializeField] private float gravityMagnitude = 10;
-    [SerializeField] private MovementSettings groundSettings = new MovementSettings(7, 14, 14);
-    [SerializeField] private MovementSettings airSettings = new MovementSettings(7, 20, 14);
-    [SerializeField] private GroundCheck groundCheck;
-    [SerializeField] private Jumps jumps;
+    [SerializeField] private float gravityMagnitude = 20;
+    [SerializeField, Range(0, 1)] private float friction = .8f;
+    [SerializeField] private MovementSettings groundSettings = new MovementSettings(7, 14);
+    [SerializeField] private MovementSettings airSettings = new MovementSettings(7, 20);
+    
+    [Header("Jump Settings")]
+    [SerializeField, Tooltip("Measured in character height")] private float jumpHeight = .5f;
+    private bool jumpQueued;
+    private float timeOfLastJump;
+
+    [Header("Ground Check")]
+    [SerializeField] private LayerMask groundMask;
+    [SerializeField] private float distanceThreshold = .15f;
+    public bool isGrounded;
+    public bool storedGroundedValue = false;
+    private float storedLastTimeGrounded;
+    private float TimeSinceLastGrounded { get { return Time.time - storedLastTimeGrounded; } }
+
+    /// <summary>
+    /// Called when the ground is touched again.
+    /// </summary>
+    public event System.Action OnGrounded;
+    
+    /// <summary>
+    /// Called when the ground is touched.
+    /// </summary>
+    public event System.Action WhenGrounded;
+
 
     // Inputs
     private Vector2 inputs;
     private Vector2 targetVelocity;
-    private Vector2 wishDirection;
-    private float lastUpMovementInputValue;
+    private float wishDirection;
+    private float storedTimeLastCanJump;
 
     // Outputs
     private Rigidbody2D rb;
@@ -40,6 +66,7 @@ public class PlayerController : MonoBehaviour
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
+        
     }
 
     // Update is called once per frame
@@ -48,119 +75,111 @@ public class PlayerController : MonoBehaviour
         // Gather Inputs
         inputs.x = InputManager.instance.horizontalMoveAxis;
         inputs.y = InputManager.instance.verticalMoveAxis;
-        QueueJump();        
+        QueueJump();
+        wishDirection = inputs.x;
 
-        // Get grounded
-        if (groundCheck.IsGrounded())
+        // Prepare Movements
+        if (isGrounded)
         {
-            if (!groundCheck.StoredGroundedValue) groundCheck.DoOnGrounded();
-            else groundCheck.DoWhenGrounded();
+            if (!storedGroundedValue) DoOnGrounded();
+            else DoWhenGrounded();
+
+            storedLastTimeGrounded = Time.time;
 
             // Ground Move
             GroundMove(Time.deltaTime);
 
-            // Apply Friction
-            Friction(Time.deltaTime);
+            // Jumping
+            if (jumpQueued)
+            {
+                DoJump();
+            }
         }
         else
         {
             // Air Move
             AirMove(Time.deltaTime);
 
-            // Apply Gravity
-            if (Time.time > groundCheck.StoredLastTimeGrounded + coyoteTime)
-                Gravity(Time.deltaTime);
-        }
-
-        // Jumping
-        if (jumps.JumpQueued)
-        {
-            DoJump();
+            // Gravity
+            Gravity(Time.deltaTime);
         }
 
         // Debug Visual
-        groundCheck.DrawGroundCheck();
+        DrawGroundCheck();
     }
 
     private void FixedUpdate()
     {
+        storedGroundedValue = isGrounded;
+        isGrounded = false;
+        RaycastHit2D hit = Physics2D.BoxCast(feet.position, new Vector2(.45f, .25f), 0, Vector2.down);
+        if (hit && hit.collider.gameObject != gameObject)
+        {
+            isGrounded = true;
+        }
         // Apply movement
         rb.velocity = targetVelocity;
     }
 
     public void GroundMove(float physicsTimeInterval)
     {
-        float wishspeed = wishDirection.magnitude * groundSettings.MaxSpeed;
         targetVelocity.y = 0;
-        Accelerate(groundSettings.Acceleration, wishspeed, physicsTimeInterval);
+        if (inputs.x == 0)
+        {
+            // Apply friction
+            targetVelocity.x *= friction;
+        }
+        else
+        {
+            targetVelocity.x = wishDirection * groundSettings.Acceleration * physicsTimeInterval;
+        }
+        ClampVelocity(groundSettings.MaxSpeed);
     }
 
     public void AirMove(float physicsTimeInterval)
     {
+        targetVelocity.x += wishDirection * airSettings.Acceleration * physicsTimeInterval;
+        ClampVelocity(airSettings.MaxSpeed);
+    }
 
+    public void ClampVelocity(float maxSpeed)
+    {
+        targetVelocity.x = Mathf.Clamp(targetVelocity.x, -maxSpeed, maxSpeed);
     }
 
     // Does full jump sequence
     private void DoJump()
     {
-        targetVelocity.y = Mathf.Sqrt(2 * gravityMagnitude * jumps.CharacterHeight * jumps.JumpHeight);
-        jumps.Jump();
-        jumps.JumpQueued = false;
+        targetVelocity.y = Mathf.Sqrt(2 * gravityMagnitude * CharacterHeight * jumpHeight);
+        timeOfLastJump = Time.time;
+        jumpQueued = false;
     }
 
     // Queues Jump
     private void QueueJump()
     {
-        if (jumps.AutoBunnyHop)
-        {
-            // Queue Jump
-            inputs.y = (inputs.y > 0 || InputManager.instance.jumpHeld ||
-                InputManager.instance.jumpPressed) ? 1 : 0;
-
-        }
-        else
-        {
-            if (lastUpMovementInputValue > 0)
-            {
-                // Queue Jump
-                inputs.y = (InputManager.instance.jumpPressed) ? 1 : 0;
-            }
-            else
-            {
-                // Queue Jump
-                inputs.y = (inputs.y > 0 || InputManager.instance.jumpPressed) ? 1 : 0;
-            }
-        }
-        jumps.JumpQueued = inputs.y > 0;
-        lastUpMovementInputValue = inputs.y;
+        jumpQueued = TimeSinceLastGrounded < coyoteTime && inputs.y > 0;
     }
 
-    // TF2 or Source style acceleration
-    private void Accelerate(float acceleration, float max_velocity, float physicsTimeInterval)
-    {
-        float projVel = Vector2.Dot(targetVelocity, wishDirection); // Vector projection of Current velocity onto accelDir.
-        float accelVel = acceleration * physicsTimeInterval; // Accelerated velocity in direction of movment
-
-        // If necessary, truncate the accelerated velocity so the vector projection does not exceed max_velocity
-        if (projVel + accelVel > max_velocity)
-            accelVel = max_velocity - projVel;
-
-        targetVelocity += wishDirection * accelVel;
-    }
-
-    // Apply Friction
-    private void Friction(float physicsTimeInterval)
-    {
-        float speed = Mathf.Abs(targetVelocity.x);
-        if (speed != 0) // To avoid divide by zero errors
-        {
-            float drop = speed * groundSettings.Deceleration * physicsTimeInterval;
-            targetVelocity.x *= Mathf.Max(speed - drop, 0) / speed; // Scale the velocity based on friction.
-        }
-    }
-
+    // Applies Extra Gravity
     private void Gravity(float physicsTimeInterval)
     {
-        targetVelocity -= Vector2.down * gravityMagnitude * physicsTimeInterval;
+        targetVelocity.y -= gravityMagnitude * physicsTimeInterval;
     }
+
+    public void DoOnGrounded()
+    {
+        OnGrounded?.Invoke();
+    }
+    public void DoWhenGrounded()
+    {
+        WhenGrounded?.Invoke();
+    }
+
+    public void DrawGroundCheck()
+    {
+        Debug.DrawLine(feet.position, feet.position - Vector3.up * distanceThreshold,
+            isGrounded ? Color.green : Color.red);
+    }
+
 }
