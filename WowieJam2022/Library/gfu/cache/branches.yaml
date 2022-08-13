@@ -13,21 +13,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 2
-  lastUpdatedAtString: 2022-08-12T18:34:28.525-04:00
-  initializedAtString: 2022-08-12T18:29:19.952-04:00
+  lastUpdatedAtString: 2022-08-12T16:54:42.231-07:00
+  initializedAtString: 2022-08-12T15:52:02.377-07:00
   localBranches:
-  - name: Keith
-    tracking: GitHubOrigin/Keith
   - name: main
-    tracking: GitHubOrigin/main
+    tracking: origin/main
   remoteBranches:
-  - name: GitHubOrigin/Keith
+  - name: origin/Blake
     tracking: '[None]'
-  - name: GitHubOrigin/main
+  - name: origin/HEAD
+    tracking: '[None]'
+  - name: origin/main
     tracking: '[None]'
   remotes:
-  - name: GitHubOrigin
-    url: https://github.com/KeithLerner/LowesJam2022.git
+  - name: origin
+    url: https://github.com/bigslammer420/LowesJam2022/
     login: 
     user: 
     host: 
@@ -35,41 +35,41 @@ MonoBehaviour:
     token: 
   localConfigBranches:
     keys:
-    - Keith
     - main
     values:
-    - name: Keith
-      remote:
-        name: GitHubOrigin
-        url: https://github.com/KeithLerner/LowesJam2022.git
-      trackingBranch: Keith
     - name: main
       remote:
-        name: GitHubOrigin
-        url: https://github.com/KeithLerner/LowesJam2022.git
+        name: origin
+        url: https://github.com/bigslammer420/LowesJam2022/
       trackingBranch: main
   remoteConfigBranches:
     keys:
-    - GitHubOrigin
+    - origin
     subKeys:
     - Values:
-      - Keith
+      - Blake
+      - HEAD
       - main
     subKeyValues:
     - Values:
-      - name: Keith
+      - name: Blake
         remote:
-          name: GitHubOrigin
-          url: https://github.com/KeithLerner/LowesJam2022.git
+          name: origin
+          url: https://github.com/bigslammer420/LowesJam2022/
+        trackingBranch: 
+      - name: HEAD
+        remote:
+          name: origin
+          url: https://github.com/bigslammer420/LowesJam2022/
         trackingBranch: 
       - name: main
         remote:
-          name: GitHubOrigin
-          url: https://github.com/KeithLerner/LowesJam2022.git
+          name: origin
+          url: https://github.com/bigslammer420/LowesJam2022/
         trackingBranch: 
   configRemotes:
     keys:
-    - GitHubOrigin
+    - origin
     values:
-    - name: GitHubOrigin
-      url: https://github.com/KeithLerner/LowesJam2022.git
+    - name: origin
+      url: https://github.com/bigslammer420/LowesJam2022/
