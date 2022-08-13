@@ -13,42 +13,24 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2022-08-12T20:00:44.608-04:00
-  initializedAtString: 2022-08-12T18:39:30.422-04:00
+  lastUpdatedAtString: 2022-08-12T22:26:14.034-04:00
+  initializedAtString: 2022-08-12T22:22:21.680-04:00
   entries:
-  - path: WowieJam2022\Assets\_Scripts\Menu.meta
-    fullPath: C:\Users\keith\OneDrive\Desktop\LowesJam2022\WowieJam2022\Assets\_Scripts\Menu.meta
-    projectPath: Assets\_Scripts\Menu.meta
+  - path: WowieJam2022\Assets\_Prefabs\LevelSelectButton.prefab
+    fullPath: C:\Users\keith\OneDrive\Desktop\LowesJam2022\WowieJam2022\Assets\_Prefabs\LevelSelectButton.prefab
+    projectPath: Assets\_Prefabs\LevelSelectButton.prefab
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: WowieJam2022\Assets\_Scripts\Menu\MenuManager.cs
-    fullPath: C:\Users\keith\OneDrive\Desktop\LowesJam2022\WowieJam2022\Assets\_Scripts\Menu\MenuManager.cs
-    projectPath: Assets\_Scripts\Menu\MenuManager.cs
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: WowieJam2022\Assets\_Scripts\Menu\MenuManager.cs.meta
-    fullPath: C:\Users\keith\OneDrive\Desktop\LowesJam2022\WowieJam2022\Assets\_Scripts\Menu\MenuManager.cs.meta
-    projectPath: Assets\_Scripts\Menu\MenuManager.cs.meta
+  - path: WowieJam2022\Assets\_Prefabs\LevelSelectButton.prefab.meta
+    fullPath: C:\Users\keith\OneDrive\Desktop\LowesJam2022\WowieJam2022\Assets\_Prefabs\LevelSelectButton.prefab.meta
+    projectPath: Assets\_Prefabs\LevelSelectButton.prefab.meta
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
   - path: WowieJam2022\Assets\Scenes\MainMenu.unity
     fullPath: C:\Users\keith\OneDrive\Desktop\LowesJam2022\WowieJam2022\Assets\Scenes\MainMenu.unity
     projectPath: Assets\Scenes\MainMenu.unity
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: WowieJam2022\Assets\Scenes\MainMenu.unity.meta
-    fullPath: C:\Users\keith\OneDrive\Desktop\LowesJam2022\WowieJam2022\Assets\Scenes\MainMenu.unity.meta
-    projectPath: Assets\Scenes\MainMenu.unity.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: WowieJam2022\Assets\Scenes\SampleScene.unity
-    fullPath: C:\Users\keith\OneDrive\Desktop\LowesJam2022\WowieJam2022\Assets\Scenes\SampleScene.unity
-    projectPath: Assets\Scenes\SampleScene.unity
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -58,93 +40,9 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: WowieJam2022\Library\Artifacts\02\027f0c09a6e76190856d187f4f026bac
-    fullPath: C:\Users\keith\OneDrive\Desktop\LowesJam2022\WowieJam2022\Library\Artifacts\02\027f0c09a6e76190856d187f4f026bac
-    projectPath: Library\Artifacts\02\027f0c09a6e76190856d187f4f026bac
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: WowieJam2022\Library\Artifacts\05\05e1fbce0d0d39af51d5f228a6a0da20
-    fullPath: C:\Users\keith\OneDrive\Desktop\LowesJam2022\WowieJam2022\Library\Artifacts\05\05e1fbce0d0d39af51d5f228a6a0da20
-    projectPath: Library\Artifacts\05\05e1fbce0d0d39af51d5f228a6a0da20
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: WowieJam2022\Library\Artifacts\07\0794c1bfc3697426fda9f9e965656935
-    fullPath: C:\Users\keith\OneDrive\Desktop\LowesJam2022\WowieJam2022\Library\Artifacts\07\0794c1bfc3697426fda9f9e965656935
-    projectPath: Library\Artifacts\07\0794c1bfc3697426fda9f9e965656935
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: WowieJam2022\Library\Artifacts\07\07b5f77fb8d4e4c465ef7feff451138c
-    fullPath: C:\Users\keith\OneDrive\Desktop\LowesJam2022\WowieJam2022\Library\Artifacts\07\07b5f77fb8d4e4c465ef7feff451138c
-    projectPath: Library\Artifacts\07\07b5f77fb8d4e4c465ef7feff451138c
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: WowieJam2022\Library\Artifacts\08\082f9d302a014c65607f40b71714b398
-    fullPath: C:\Users\keith\OneDrive\Desktop\LowesJam2022\WowieJam2022\Library\Artifacts\08\082f9d302a014c65607f40b71714b398
-    projectPath: Library\Artifacts\08\082f9d302a014c65607f40b71714b398
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: WowieJam2022\Library\Artifacts\0b\0b28dd2f4fa483f6e7124130930ce2d6
-    fullPath: C:\Users\keith\OneDrive\Desktop\LowesJam2022\WowieJam2022\Library\Artifacts\0b\0b28dd2f4fa483f6e7124130930ce2d6
-    projectPath: Library\Artifacts\0b\0b28dd2f4fa483f6e7124130930ce2d6
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: WowieJam2022\Library\Artifacts\0c\0c502613ec97872ac7942ffa8e70f6b2
-    fullPath: C:\Users\keith\OneDrive\Desktop\LowesJam2022\WowieJam2022\Library\Artifacts\0c\0c502613ec97872ac7942ffa8e70f6b2
-    projectPath: Library\Artifacts\0c\0c502613ec97872ac7942ffa8e70f6b2
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: WowieJam2022\Library\Artifacts\0c\0c87380818195dbc3f23eb4204295782
-    fullPath: C:\Users\keith\OneDrive\Desktop\LowesJam2022\WowieJam2022\Library\Artifacts\0c\0c87380818195dbc3f23eb4204295782
-    projectPath: Library\Artifacts\0c\0c87380818195dbc3f23eb4204295782
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
   - path: WowieJam2022\Library\Artifacts\10\10fd16d69cfb58bf406c4765d506105b
     fullPath: C:\Users\keith\OneDrive\Desktop\LowesJam2022\WowieJam2022\Library\Artifacts\10\10fd16d69cfb58bf406c4765d506105b
     projectPath: Library\Artifacts\10\10fd16d69cfb58bf406c4765d506105b
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: WowieJam2022\Library\Artifacts\14\14700e735c6d5064d21ffd9b85119a1e
-    fullPath: C:\Users\keith\OneDrive\Desktop\LowesJam2022\WowieJam2022\Library\Artifacts\14\14700e735c6d5064d21ffd9b85119a1e
-    projectPath: Library\Artifacts\14\14700e735c6d5064d21ffd9b85119a1e
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: WowieJam2022\Library\Artifacts\19\195ac71d743025ab7195c30af04380ab
-    fullPath: C:\Users\keith\OneDrive\Desktop\LowesJam2022\WowieJam2022\Library\Artifacts\19\195ac71d743025ab7195c30af04380ab
-    projectPath: Library\Artifacts\19\195ac71d743025ab7195c30af04380ab
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: WowieJam2022\Library\Artifacts\1f\1f7bd7501d3e0e107e86c55450e08262
-    fullPath: C:\Users\keith\OneDrive\Desktop\LowesJam2022\WowieJam2022\Library\Artifacts\1f\1f7bd7501d3e0e107e86c55450e08262
-    projectPath: Library\Artifacts\1f\1f7bd7501d3e0e107e86c55450e08262
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: WowieJam2022\Library\Artifacts\1f\1fe54318fe85aeab159f1a8b425c1aa5
-    fullPath: C:\Users\keith\OneDrive\Desktop\LowesJam2022\WowieJam2022\Library\Artifacts\1f\1fe54318fe85aeab159f1a8b425c1aa5
-    projectPath: Library\Artifacts\1f\1fe54318fe85aeab159f1a8b425c1aa5
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: WowieJam2022\Library\Artifacts\21\2178a8a0fa8308fcfa83c6c3cf779a0c
-    fullPath: C:\Users\keith\OneDrive\Desktop\LowesJam2022\WowieJam2022\Library\Artifacts\21\2178a8a0fa8308fcfa83c6c3cf779a0c
-    projectPath: Library\Artifacts\21\2178a8a0fa8308fcfa83c6c3cf779a0c
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: WowieJam2022\Library\Artifacts\21\21ec58567532d17a5849986dbc85b58b
-    fullPath: C:\Users\keith\OneDrive\Desktop\LowesJam2022\WowieJam2022\Library\Artifacts\21\21ec58567532d17a5849986dbc85b58b
-    projectPath: Library\Artifacts\21\21ec58567532d17a5849986dbc85b58b
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
@@ -152,59 +50,17 @@ MonoBehaviour:
     fullPath: C:\Users\keith\OneDrive\Desktop\LowesJam2022\WowieJam2022\Library\Artifacts\23\2358f904b2ce87ecba6021fbe984ba3f
     projectPath: Library\Artifacts\23\2358f904b2ce87ecba6021fbe984ba3f
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: WowieJam2022\Library\Artifacts\23\23ca7146a94c99567c0b7fa2edd1d3f6
-    fullPath: C:\Users\keith\OneDrive\Desktop\LowesJam2022\WowieJam2022\Library\Artifacts\23\23ca7146a94c99567c0b7fa2edd1d3f6
-    projectPath: Library\Artifacts\23\23ca7146a94c99567c0b7fa2edd1d3f6
-    originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: WowieJam2022\Library\Artifacts\29\296497d56e0a89f9e50b9cfa085523b9
-    fullPath: C:\Users\keith\OneDrive\Desktop\LowesJam2022\WowieJam2022\Library\Artifacts\29\296497d56e0a89f9e50b9cfa085523b9
-    projectPath: Library\Artifacts\29\296497d56e0a89f9e50b9cfa085523b9
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: WowieJam2022\Library\Artifacts\2b\2bbc7eb19b5468e4e6997020c9513d3e
-    fullPath: C:\Users\keith\OneDrive\Desktop\LowesJam2022\WowieJam2022\Library\Artifacts\2b\2bbc7eb19b5468e4e6997020c9513d3e
-    projectPath: Library\Artifacts\2b\2bbc7eb19b5468e4e6997020c9513d3e
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: WowieJam2022\Library\Artifacts\2e\2ea53b6808ba5d5fba564055d6efb2be
-    fullPath: C:\Users\keith\OneDrive\Desktop\LowesJam2022\WowieJam2022\Library\Artifacts\2e\2ea53b6808ba5d5fba564055d6efb2be
-    projectPath: Library\Artifacts\2e\2ea53b6808ba5d5fba564055d6efb2be
+  - path: WowieJam2022\Library\Artifacts\32\3271443ef1624cf8f868b9a9243714ec
+    fullPath: C:\Users\keith\OneDrive\Desktop\LowesJam2022\WowieJam2022\Library\Artifacts\32\3271443ef1624cf8f868b9a9243714ec
+    projectPath: Library\Artifacts\32\3271443ef1624cf8f868b9a9243714ec
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: WowieJam2022\Library\Artifacts\31\313418e1677137adff6323d249e7ce21
-    fullPath: C:\Users\keith\OneDrive\Desktop\LowesJam2022\WowieJam2022\Library\Artifacts\31\313418e1677137adff6323d249e7ce21
-    projectPath: Library\Artifacts\31\313418e1677137adff6323d249e7ce21
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: WowieJam2022\Library\Artifacts\35\35cfa32baef600a1e55378590ea4d6fa
-    fullPath: C:\Users\keith\OneDrive\Desktop\LowesJam2022\WowieJam2022\Library\Artifacts\35\35cfa32baef600a1e55378590ea4d6fa
-    projectPath: Library\Artifacts\35\35cfa32baef600a1e55378590ea4d6fa
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: WowieJam2022\Library\Artifacts\38\38d050de317ff9463071aeb1c0efa3d9
-    fullPath: C:\Users\keith\OneDrive\Desktop\LowesJam2022\WowieJam2022\Library\Artifacts\38\38d050de317ff9463071aeb1c0efa3d9
-    projectPath: Library\Artifacts\38\38d050de317ff9463071aeb1c0efa3d9
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
   - path: WowieJam2022\Library\Artifacts\40\404261b9c78e89d77a41eb7c30793a56
     fullPath: C:\Users\keith\OneDrive\Desktop\LowesJam2022\WowieJam2022\Library\Artifacts\40\404261b9c78e89d77a41eb7c30793a56
     projectPath: Library\Artifacts\40\404261b9c78e89d77a41eb7c30793a56
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: WowieJam2022\Library\Artifacts\40\409a8d2652639c85b8aaa79dcc4984e2
-    fullPath: C:\Users\keith\OneDrive\Desktop\LowesJam2022\WowieJam2022\Library\Artifacts\40\409a8d2652639c85b8aaa79dcc4984e2
-    projectPath: Library\Artifacts\40\409a8d2652639c85b8aaa79dcc4984e2
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
@@ -212,95 +68,35 @@ MonoBehaviour:
     fullPath: C:\Users\keith\OneDrive\Desktop\LowesJam2022\WowieJam2022\Library\Artifacts\47\4728c637606ba083a82ad4e27fe1708c
     projectPath: Library\Artifacts\47\4728c637606ba083a82ad4e27fe1708c
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: WowieJam2022\Library\Artifacts\52\52de249804ca17ac26095dcb41a3ae4f
-    fullPath: C:\Users\keith\OneDrive\Desktop\LowesJam2022\WowieJam2022\Library\Artifacts\52\52de249804ca17ac26095dcb41a3ae4f
-    projectPath: Library\Artifacts\52\52de249804ca17ac26095dcb41a3ae4f
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: WowieJam2022\Library\Artifacts\55\5529881eafe0c3aa69667428212a31bd
-    fullPath: C:\Users\keith\OneDrive\Desktop\LowesJam2022\WowieJam2022\Library\Artifacts\55\5529881eafe0c3aa69667428212a31bd
-    projectPath: Library\Artifacts\55\5529881eafe0c3aa69667428212a31bd
-    originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: WowieJam2022\Library\Artifacts\55\55f5f6ad7d7239b1806715c06f1a31d6
-    fullPath: C:\Users\keith\OneDrive\Desktop\LowesJam2022\WowieJam2022\Library\Artifacts\55\55f5f6ad7d7239b1806715c06f1a31d6
-    projectPath: Library\Artifacts\55\55f5f6ad7d7239b1806715c06f1a31d6
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: WowieJam2022\Library\Artifacts\57\57fdd9c6ef8d964e97b1dd1b737c156c
-    fullPath: C:\Users\keith\OneDrive\Desktop\LowesJam2022\WowieJam2022\Library\Artifacts\57\57fdd9c6ef8d964e97b1dd1b737c156c
-    projectPath: Library\Artifacts\57\57fdd9c6ef8d964e97b1dd1b737c156c
+  - path: WowieJam2022\Library\Artifacts\4d\4d9a5add1e9503be8ac3e2bc2c1b40c0
+    fullPath: C:\Users\keith\OneDrive\Desktop\LowesJam2022\WowieJam2022\Library\Artifacts\4d\4d9a5add1e9503be8ac3e2bc2c1b40c0
+    projectPath: Library\Artifacts\4d\4d9a5add1e9503be8ac3e2bc2c1b40c0
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: WowieJam2022\Library\Artifacts\59\596bff83af06e69cb14d068156d6f8c0
-    fullPath: C:\Users\keith\OneDrive\Desktop\LowesJam2022\WowieJam2022\Library\Artifacts\59\596bff83af06e69cb14d068156d6f8c0
-    projectPath: Library\Artifacts\59\596bff83af06e69cb14d068156d6f8c0
+  - path: WowieJam2022\Library\Artifacts\50\50850886ca6cf4205e280c26da0f6d6c
+    fullPath: C:\Users\keith\OneDrive\Desktop\LowesJam2022\WowieJam2022\Library\Artifacts\50\50850886ca6cf4205e280c26da0f6d6c
+    projectPath: Library\Artifacts\50\50850886ca6cf4205e280c26da0f6d6c
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: WowieJam2022\Library\Artifacts\5c\5c9e679043570ced4bee499359e45487
-    fullPath: C:\Users\keith\OneDrive\Desktop\LowesJam2022\WowieJam2022\Library\Artifacts\5c\5c9e679043570ced4bee499359e45487
-    projectPath: Library\Artifacts\5c\5c9e679043570ced4bee499359e45487
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: WowieJam2022\Library\Artifacts\53\534919eed37288d9553ebdab9310388d
+    fullPath: C:\Users\keith\OneDrive\Desktop\LowesJam2022\WowieJam2022\Library\Artifacts\53\534919eed37288d9553ebdab9310388d
+    projectPath: Library\Artifacts\53\534919eed37288d9553ebdab9310388d
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: WowieJam2022\Library\Artifacts\67\67a1871561fa74b2f9b8fb5625d9d3e8
-    fullPath: C:\Users\keith\OneDrive\Desktop\LowesJam2022\WowieJam2022\Library\Artifacts\67\67a1871561fa74b2f9b8fb5625d9d3e8
-    projectPath: Library\Artifacts\67\67a1871561fa74b2f9b8fb5625d9d3e8
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: WowieJam2022\Library\Artifacts\61\614b8088b3f3a55a99a19ec24c3f313c
+    fullPath: C:\Users\keith\OneDrive\Desktop\LowesJam2022\WowieJam2022\Library\Artifacts\61\614b8088b3f3a55a99a19ec24c3f313c
+    projectPath: Library\Artifacts\61\614b8088b3f3a55a99a19ec24c3f313c
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: WowieJam2022\Library\Artifacts\68\6873daab6c42a914850f4ba267b087f0
-    fullPath: C:\Users\keith\OneDrive\Desktop\LowesJam2022\WowieJam2022\Library\Artifacts\68\6873daab6c42a914850f4ba267b087f0
-    projectPath: Library\Artifacts\68\6873daab6c42a914850f4ba267b087f0
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: WowieJam2022\Library\Artifacts\69\693f1850e9d3879466195271ee10c7cd
-    fullPath: C:\Users\keith\OneDrive\Desktop\LowesJam2022\WowieJam2022\Library\Artifacts\69\693f1850e9d3879466195271ee10c7cd
-    projectPath: Library\Artifacts\69\693f1850e9d3879466195271ee10c7cd
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: WowieJam2022\Library\Artifacts\71\714955287ff346bfe9df23d88498df5f
-    fullPath: C:\Users\keith\OneDrive\Desktop\LowesJam2022\WowieJam2022\Library\Artifacts\71\714955287ff346bfe9df23d88498df5f
-    projectPath: Library\Artifacts\71\714955287ff346bfe9df23d88498df5f
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
+    indexStatus: 1
+    workTreeStatus: 1
   - path: WowieJam2022\Library\Artifacts\74\74826c2611fb55d29a046b558b65b355
     fullPath: C:\Users\keith\OneDrive\Desktop\LowesJam2022\WowieJam2022\Library\Artifacts\74\74826c2611fb55d29a046b558b65b355
     projectPath: Library\Artifacts\74\74826c2611fb55d29a046b558b65b355
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: WowieJam2022\Library\Artifacts\76\76001100f603905ba884fb4f05173c32
-    fullPath: C:\Users\keith\OneDrive\Desktop\LowesJam2022\WowieJam2022\Library\Artifacts\76\76001100f603905ba884fb4f05173c32
-    projectPath: Library\Artifacts\76\76001100f603905ba884fb4f05173c32
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: WowieJam2022\Library\Artifacts\77\7706a9f808e1642b7d364951cff14c7f
-    fullPath: C:\Users\keith\OneDrive\Desktop\LowesJam2022\WowieJam2022\Library\Artifacts\77\7706a9f808e1642b7d364951cff14c7f
-    projectPath: Library\Artifacts\77\7706a9f808e1642b7d364951cff14c7f
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: WowieJam2022\Library\Artifacts\79\791ab3c3b2ff892114946d8d4ea95ad4
-    fullPath: C:\Users\keith\OneDrive\Desktop\LowesJam2022\WowieJam2022\Library\Artifacts\79\791ab3c3b2ff892114946d8d4ea95ad4
-    projectPath: Library\Artifacts\79\791ab3c3b2ff892114946d8d4ea95ad4
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: WowieJam2022\Library\Artifacts\7d\7d21118a247d003687b7f9d00e53d314
-    fullPath: C:\Users\keith\OneDrive\Desktop\LowesJam2022\WowieJam2022\Library\Artifacts\7d\7d21118a247d003687b7f9d00e53d314
-    projectPath: Library\Artifacts\7d\7d21118a247d003687b7f9d00e53d314
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
@@ -308,23 +104,17 @@ MonoBehaviour:
     fullPath: C:\Users\keith\OneDrive\Desktop\LowesJam2022\WowieJam2022\Library\Artifacts\7f\7f70e9d235685845ecb0c9e5e424c4df
     projectPath: Library\Artifacts\7f\7f70e9d235685845ecb0c9e5e424c4df
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: WowieJam2022\Library\Artifacts\81\81eb13bba0c45637d76f3c86951097d2
     fullPath: C:\Users\keith\OneDrive\Desktop\LowesJam2022\WowieJam2022\Library\Artifacts\81\81eb13bba0c45637d76f3c86951097d2
     projectPath: Library\Artifacts\81\81eb13bba0c45637d76f3c86951097d2
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: WowieJam2022\Library\Artifacts\84\84dc4b60206c285d3e505908c5cad6ee
     fullPath: C:\Users\keith\OneDrive\Desktop\LowesJam2022\WowieJam2022\Library\Artifacts\84\84dc4b60206c285d3e505908c5cad6ee
     projectPath: Library\Artifacts\84\84dc4b60206c285d3e505908c5cad6ee
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: WowieJam2022\Library\Artifacts\86\862e5ce25d7f1a99c9834b6f0e0c2946
-    fullPath: C:\Users\keith\OneDrive\Desktop\LowesJam2022\WowieJam2022\Library\Artifacts\86\862e5ce25d7f1a99c9834b6f0e0c2946
-    projectPath: Library\Artifacts\86\862e5ce25d7f1a99c9834b6f0e0c2946
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
@@ -332,101 +122,11 @@ MonoBehaviour:
     fullPath: C:\Users\keith\OneDrive\Desktop\LowesJam2022\WowieJam2022\Library\Artifacts\88\880065859309e40649bf7a24269b027a
     projectPath: Library\Artifacts\88\880065859309e40649bf7a24269b027a
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: WowieJam2022\Library\Artifacts\8a\8af847adc94aab18acddb6d156ab6d1f
     fullPath: C:\Users\keith\OneDrive\Desktop\LowesJam2022\WowieJam2022\Library\Artifacts\8a\8af847adc94aab18acddb6d156ab6d1f
     projectPath: Library\Artifacts\8a\8af847adc94aab18acddb6d156ab6d1f
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: WowieJam2022\Library\Artifacts\8f\8fb748e2192a6041002a457c3cf626a3
-    fullPath: C:\Users\keith\OneDrive\Desktop\LowesJam2022\WowieJam2022\Library\Artifacts\8f\8fb748e2192a6041002a457c3cf626a3
-    projectPath: Library\Artifacts\8f\8fb748e2192a6041002a457c3cf626a3
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: WowieJam2022\Library\Artifacts\8f\8ffac16091c05530eec21d0d554975c9
-    fullPath: C:\Users\keith\OneDrive\Desktop\LowesJam2022\WowieJam2022\Library\Artifacts\8f\8ffac16091c05530eec21d0d554975c9
-    projectPath: Library\Artifacts\8f\8ffac16091c05530eec21d0d554975c9
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: WowieJam2022\Library\Artifacts\92\92c2d8674b3262048c736ea51c68fc01
-    fullPath: C:\Users\keith\OneDrive\Desktop\LowesJam2022\WowieJam2022\Library\Artifacts\92\92c2d8674b3262048c736ea51c68fc01
-    projectPath: Library\Artifacts\92\92c2d8674b3262048c736ea51c68fc01
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: WowieJam2022\Library\Artifacts\97\9717bf392a8f74be657aabdb766da235
-    fullPath: C:\Users\keith\OneDrive\Desktop\LowesJam2022\WowieJam2022\Library\Artifacts\97\9717bf392a8f74be657aabdb766da235
-    projectPath: Library\Artifacts\97\9717bf392a8f74be657aabdb766da235
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: WowieJam2022\Library\Artifacts\99\991cf6c2347f3cd13e7505dba9131e76
-    fullPath: C:\Users\keith\OneDrive\Desktop\LowesJam2022\WowieJam2022\Library\Artifacts\99\991cf6c2347f3cd13e7505dba9131e76
-    projectPath: Library\Artifacts\99\991cf6c2347f3cd13e7505dba9131e76
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: WowieJam2022\Library\Artifacts\9b\9b0c9a7ad5a653cb5aee63b3741de29c
-    fullPath: C:\Users\keith\OneDrive\Desktop\LowesJam2022\WowieJam2022\Library\Artifacts\9b\9b0c9a7ad5a653cb5aee63b3741de29c
-    projectPath: Library\Artifacts\9b\9b0c9a7ad5a653cb5aee63b3741de29c
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: WowieJam2022\Library\Artifacts\9b\9ba796f082568d9d1b17c8707caacd08
-    fullPath: C:\Users\keith\OneDrive\Desktop\LowesJam2022\WowieJam2022\Library\Artifacts\9b\9ba796f082568d9d1b17c8707caacd08
-    projectPath: Library\Artifacts\9b\9ba796f082568d9d1b17c8707caacd08
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: WowieJam2022\Library\Artifacts\9e\9e788ae9f85ca60dc970f98c603db052
-    fullPath: C:\Users\keith\OneDrive\Desktop\LowesJam2022\WowieJam2022\Library\Artifacts\9e\9e788ae9f85ca60dc970f98c603db052
-    projectPath: Library\Artifacts\9e\9e788ae9f85ca60dc970f98c603db052
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: WowieJam2022\Library\Artifacts\a1\a1a0271b54f8c565bbcd2e9c7d2cff5c
-    fullPath: C:\Users\keith\OneDrive\Desktop\LowesJam2022\WowieJam2022\Library\Artifacts\a1\a1a0271b54f8c565bbcd2e9c7d2cff5c
-    projectPath: Library\Artifacts\a1\a1a0271b54f8c565bbcd2e9c7d2cff5c
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: WowieJam2022\Library\Artifacts\a3\a3561620f84c15ab3c0b45963ec7c8a2
-    fullPath: C:\Users\keith\OneDrive\Desktop\LowesJam2022\WowieJam2022\Library\Artifacts\a3\a3561620f84c15ab3c0b45963ec7c8a2
-    projectPath: Library\Artifacts\a3\a3561620f84c15ab3c0b45963ec7c8a2
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: WowieJam2022\Library\Artifacts\a6\a6dae1c842f41098b1767a4504e9d330
-    fullPath: C:\Users\keith\OneDrive\Desktop\LowesJam2022\WowieJam2022\Library\Artifacts\a6\a6dae1c842f41098b1767a4504e9d330
-    projectPath: Library\Artifacts\a6\a6dae1c842f41098b1767a4504e9d330
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: WowieJam2022\Library\Artifacts\a7\a76675afc8bb5e870830eb3412281759
-    fullPath: C:\Users\keith\OneDrive\Desktop\LowesJam2022\WowieJam2022\Library\Artifacts\a7\a76675afc8bb5e870830eb3412281759
-    projectPath: Library\Artifacts\a7\a76675afc8bb5e870830eb3412281759
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: WowieJam2022\Library\Artifacts\a9\a98f549bad86771bc88a8b542266c927
-    fullPath: C:\Users\keith\OneDrive\Desktop\LowesJam2022\WowieJam2022\Library\Artifacts\a9\a98f549bad86771bc88a8b542266c927
-    projectPath: Library\Artifacts\a9\a98f549bad86771bc88a8b542266c927
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: WowieJam2022\Library\Artifacts\aa\aa790079d22a030c94cd2649eb952175
-    fullPath: C:\Users\keith\OneDrive\Desktop\LowesJam2022\WowieJam2022\Library\Artifacts\aa\aa790079d22a030c94cd2649eb952175
-    projectPath: Library\Artifacts\aa\aa790079d22a030c94cd2649eb952175
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: WowieJam2022\Library\Artifacts\ab\ab748ba0629ca72f0afc1ee9834edc7c
-    fullPath: C:\Users\keith\OneDrive\Desktop\LowesJam2022\WowieJam2022\Library\Artifacts\ab\ab748ba0629ca72f0afc1ee9834edc7c
-    projectPath: Library\Artifacts\ab\ab748ba0629ca72f0afc1ee9834edc7c
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
@@ -434,125 +134,11 @@ MonoBehaviour:
     fullPath: C:\Users\keith\OneDrive\Desktop\LowesJam2022\WowieJam2022\Library\Artifacts\ad\adcefe556f5cbe44a66a634f73d19c5f
     projectPath: Library\Artifacts\ad\adcefe556f5cbe44a66a634f73d19c5f
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: WowieJam2022\Library\Artifacts\b1\b12c2079d6c7d4b9990496c1678d6175
-    fullPath: C:\Users\keith\OneDrive\Desktop\LowesJam2022\WowieJam2022\Library\Artifacts\b1\b12c2079d6c7d4b9990496c1678d6175
-    projectPath: Library\Artifacts\b1\b12c2079d6c7d4b9990496c1678d6175
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: WowieJam2022\Library\Artifacts\b2\b2df45e6949bd9ee67776b5ecf605f61
-    fullPath: C:\Users\keith\OneDrive\Desktop\LowesJam2022\WowieJam2022\Library\Artifacts\b2\b2df45e6949bd9ee67776b5ecf605f61
-    projectPath: Library\Artifacts\b2\b2df45e6949bd9ee67776b5ecf605f61
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: WowieJam2022\Library\Artifacts\b4\b40aded17c218e5e32eb3e25631f14e2
-    fullPath: C:\Users\keith\OneDrive\Desktop\LowesJam2022\WowieJam2022\Library\Artifacts\b4\b40aded17c218e5e32eb3e25631f14e2
-    projectPath: Library\Artifacts\b4\b40aded17c218e5e32eb3e25631f14e2
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: WowieJam2022\Library\Artifacts\b4\b468fdda0545ebd97bdd9264feb5c428
-    fullPath: C:\Users\keith\OneDrive\Desktop\LowesJam2022\WowieJam2022\Library\Artifacts\b4\b468fdda0545ebd97bdd9264feb5c428
-    projectPath: Library\Artifacts\b4\b468fdda0545ebd97bdd9264feb5c428
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: WowieJam2022\Library\Artifacts\b5\b58d1d12a0140a4c9a63a98bbcd725d0
-    fullPath: C:\Users\keith\OneDrive\Desktop\LowesJam2022\WowieJam2022\Library\Artifacts\b5\b58d1d12a0140a4c9a63a98bbcd725d0
-    projectPath: Library\Artifacts\b5\b58d1d12a0140a4c9a63a98bbcd725d0
-    originalPath: 
     indexStatus: 0
     workTreeStatus: 5
   - path: WowieJam2022\Library\Artifacts\b6\b63243c2bb6d263cc3023a39f0ab1d59
     fullPath: C:\Users\keith\OneDrive\Desktop\LowesJam2022\WowieJam2022\Library\Artifacts\b6\b63243c2bb6d263cc3023a39f0ab1d59
     projectPath: Library\Artifacts\b6\b63243c2bb6d263cc3023a39f0ab1d59
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: WowieJam2022\Library\Artifacts\b6\b668183f9c048637f037cebc3b82ebac
-    fullPath: C:\Users\keith\OneDrive\Desktop\LowesJam2022\WowieJam2022\Library\Artifacts\b6\b668183f9c048637f037cebc3b82ebac
-    projectPath: Library\Artifacts\b6\b668183f9c048637f037cebc3b82ebac
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: WowieJam2022\Library\Artifacts\b7\b75fd0f8ce22773721771bc81a82064a
-    fullPath: C:\Users\keith\OneDrive\Desktop\LowesJam2022\WowieJam2022\Library\Artifacts\b7\b75fd0f8ce22773721771bc81a82064a
-    projectPath: Library\Artifacts\b7\b75fd0f8ce22773721771bc81a82064a
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: WowieJam2022\Library\Artifacts\b8\b800485456d453475728fedcbfddd57b
-    fullPath: C:\Users\keith\OneDrive\Desktop\LowesJam2022\WowieJam2022\Library\Artifacts\b8\b800485456d453475728fedcbfddd57b
-    projectPath: Library\Artifacts\b8\b800485456d453475728fedcbfddd57b
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: WowieJam2022\Library\Artifacts\b8\b836e1d83e2f9f4b7a0d314a207736bd
-    fullPath: C:\Users\keith\OneDrive\Desktop\LowesJam2022\WowieJam2022\Library\Artifacts\b8\b836e1d83e2f9f4b7a0d314a207736bd
-    projectPath: Library\Artifacts\b8\b836e1d83e2f9f4b7a0d314a207736bd
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: WowieJam2022\Library\Artifacts\b9\b9b3eb522436d760d162578479b1c03d
-    fullPath: C:\Users\keith\OneDrive\Desktop\LowesJam2022\WowieJam2022\Library\Artifacts\b9\b9b3eb522436d760d162578479b1c03d
-    projectPath: Library\Artifacts\b9\b9b3eb522436d760d162578479b1c03d
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: WowieJam2022\Library\Artifacts\bd\bd3b3e5efd1936c5316dab4dc453bbb0
-    fullPath: C:\Users\keith\OneDrive\Desktop\LowesJam2022\WowieJam2022\Library\Artifacts\bd\bd3b3e5efd1936c5316dab4dc453bbb0
-    projectPath: Library\Artifacts\bd\bd3b3e5efd1936c5316dab4dc453bbb0
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: WowieJam2022\Library\Artifacts\be\be77fe6cb27e972c2f4489220a88184d
-    fullPath: C:\Users\keith\OneDrive\Desktop\LowesJam2022\WowieJam2022\Library\Artifacts\be\be77fe6cb27e972c2f4489220a88184d
-    projectPath: Library\Artifacts\be\be77fe6cb27e972c2f4489220a88184d
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: WowieJam2022\Library\Artifacts\bf\bf31b3469720ca04a9702cf32d6716b6
-    fullPath: C:\Users\keith\OneDrive\Desktop\LowesJam2022\WowieJam2022\Library\Artifacts\bf\bf31b3469720ca04a9702cf32d6716b6
-    projectPath: Library\Artifacts\bf\bf31b3469720ca04a9702cf32d6716b6
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: WowieJam2022\Library\Artifacts\c1\c1e47206cc0c175673b74ab438c58a60
-    fullPath: C:\Users\keith\OneDrive\Desktop\LowesJam2022\WowieJam2022\Library\Artifacts\c1\c1e47206cc0c175673b74ab438c58a60
-    projectPath: Library\Artifacts\c1\c1e47206cc0c175673b74ab438c58a60
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: WowieJam2022\Library\Artifacts\c8\c80ba58d3ee09c8ab29911d20e68a83a
-    fullPath: C:\Users\keith\OneDrive\Desktop\LowesJam2022\WowieJam2022\Library\Artifacts\c8\c80ba58d3ee09c8ab29911d20e68a83a
-    projectPath: Library\Artifacts\c8\c80ba58d3ee09c8ab29911d20e68a83a
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: WowieJam2022\Library\Artifacts\c9\c903b09cc923b42a24fe72eee9a832ab
-    fullPath: C:\Users\keith\OneDrive\Desktop\LowesJam2022\WowieJam2022\Library\Artifacts\c9\c903b09cc923b42a24fe72eee9a832ab
-    projectPath: Library\Artifacts\c9\c903b09cc923b42a24fe72eee9a832ab
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: WowieJam2022\Library\Artifacts\cd\cd9e39ed2cacca5c07f7a1c247afaec1
-    fullPath: C:\Users\keith\OneDrive\Desktop\LowesJam2022\WowieJam2022\Library\Artifacts\cd\cd9e39ed2cacca5c07f7a1c247afaec1
-    projectPath: Library\Artifacts\cd\cd9e39ed2cacca5c07f7a1c247afaec1
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: WowieJam2022\Library\Artifacts\cd\cdf10610ba77b464acd70b9eaa9b2c84
-    fullPath: C:\Users\keith\OneDrive\Desktop\LowesJam2022\WowieJam2022\Library\Artifacts\cd\cdf10610ba77b464acd70b9eaa9b2c84
-    projectPath: Library\Artifacts\cd\cdf10610ba77b464acd70b9eaa9b2c84
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: WowieJam2022\Library\Artifacts\d4\d43f84d123c80dffc50117d10612aaf2
-    fullPath: C:\Users\keith\OneDrive\Desktop\LowesJam2022\WowieJam2022\Library\Artifacts\d4\d43f84d123c80dffc50117d10612aaf2
-    projectPath: Library\Artifacts\d4\d43f84d123c80dffc50117d10612aaf2
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
@@ -560,44 +146,20 @@ MonoBehaviour:
     fullPath: C:\Users\keith\OneDrive\Desktop\LowesJam2022\WowieJam2022\Library\Artifacts\d7\d7d4389bd5cd43842829463a1d339a57
     projectPath: Library\Artifacts\d7\d7d4389bd5cd43842829463a1d339a57
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: WowieJam2022\Library\Artifacts\dd\dd462b6fd4287dab8bd3e6043aaea6bf
-    fullPath: C:\Users\keith\OneDrive\Desktop\LowesJam2022\WowieJam2022\Library\Artifacts\dd\dd462b6fd4287dab8bd3e6043aaea6bf
-    projectPath: Library\Artifacts\dd\dd462b6fd4287dab8bd3e6043aaea6bf
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: WowieJam2022\Library\Artifacts\e6\e62009acf04b7f99177f585bcfc8aa8d
-    fullPath: C:\Users\keith\OneDrive\Desktop\LowesJam2022\WowieJam2022\Library\Artifacts\e6\e62009acf04b7f99177f585bcfc8aa8d
-    projectPath: Library\Artifacts\e6\e62009acf04b7f99177f585bcfc8aa8d
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: WowieJam2022\Library\Artifacts\e6\e6768f27cd43ab1c6623aef0962e298d
-    fullPath: C:\Users\keith\OneDrive\Desktop\LowesJam2022\WowieJam2022\Library\Artifacts\e6\e6768f27cd43ab1c6623aef0962e298d
-    projectPath: Library\Artifacts\e6\e6768f27cd43ab1c6623aef0962e298d
-    originalPath: 
     indexStatus: 0
     workTreeStatus: 5
   - path: WowieJam2022\Library\Artifacts\f2\f24bff48b8b81faae9cd6e65504b8414
     fullPath: C:\Users\keith\OneDrive\Desktop\LowesJam2022\WowieJam2022\Library\Artifacts\f2\f24bff48b8b81faae9cd6e65504b8414
     projectPath: Library\Artifacts\f2\f24bff48b8b81faae9cd6e65504b8414
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: WowieJam2022\Library\Artifacts\f5\f5336727e4d81e7d50920494d79a89bc
-    fullPath: C:\Users\keith\OneDrive\Desktop\LowesJam2022\WowieJam2022\Library\Artifacts\f5\f5336727e4d81e7d50920494d79a89bc
-    projectPath: Library\Artifacts\f5\f5336727e4d81e7d50920494d79a89bc
-    originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: WowieJam2022\Library\Artifacts\fb\fb70ef53f52c3645cf556c366846322c
-    fullPath: C:\Users\keith\OneDrive\Desktop\LowesJam2022\WowieJam2022\Library\Artifacts\fb\fb70ef53f52c3645cf556c366846322c
-    projectPath: Library\Artifacts\fb\fb70ef53f52c3645cf556c366846322c
+  - path: WowieJam2022\Library\CurrentLayout-default.dwlt
+    fullPath: C:\Users\keith\OneDrive\Desktop\LowesJam2022\WowieJam2022\Library\CurrentLayout-default.dwlt
+    projectPath: Library\CurrentLayout-default.dwlt
     originalPath: 
     indexStatus: 0
-    workTreeStatus: 5
+    workTreeStatus: 3
   - path: WowieJam2022\Library\EditorInstance.json
     fullPath: C:\Users\keith\OneDrive\Desktop\LowesJam2022\WowieJam2022\Library\EditorInstance.json
     projectPath: Library\EditorInstance.json
@@ -640,33 +202,33 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: WowieJam2022\Library\InspectorExpandedItems.asset
-    fullPath: C:\Users\keith\OneDrive\Desktop\LowesJam2022\WowieJam2022\Library\InspectorExpandedItems.asset
-    projectPath: Library\InspectorExpandedItems.asset
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: WowieJam2022\Library\SceneVisibilityState.asset
     fullPath: C:\Users\keith\OneDrive\Desktop\LowesJam2022\WowieJam2022\Library\SceneVisibilityState.asset
     projectPath: Library\SceneVisibilityState.asset
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: WowieJam2022\Library\ScriptAssemblies\Assembly-CSharp.dll
-    fullPath: C:\Users\keith\OneDrive\Desktop\LowesJam2022\WowieJam2022\Library\ScriptAssemblies\Assembly-CSharp.dll
-    projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: WowieJam2022\Library\ShaderCache\0\03d1db0a7032bbd7de2d8774142b9f77.bin
-    fullPath: C:\Users\keith\OneDrive\Desktop\LowesJam2022\WowieJam2022\Library\ShaderCache\0\03d1db0a7032bbd7de2d8774142b9f77.bin
-    projectPath: Library\ShaderCache\0\03d1db0a7032bbd7de2d8774142b9f77.bin
+  - path: WowieJam2022\Library\ShaderCache\2\24f9477ea86f76b46b75a9b8a68ff3fe.bin
+    fullPath: C:\Users\keith\OneDrive\Desktop\LowesJam2022\WowieJam2022\Library\ShaderCache\2\24f9477ea86f76b46b75a9b8a68ff3fe.bin
+    projectPath: Library\ShaderCache\2\24f9477ea86f76b46b75a9b8a68ff3fe.bin
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: WowieJam2022\Library\ShaderCache\9\999b4aeffa611049371217a5f35f8300.bin
-    fullPath: C:\Users\keith\OneDrive\Desktop\LowesJam2022\WowieJam2022\Library\ShaderCache\9\999b4aeffa611049371217a5f35f8300.bin
-    projectPath: Library\ShaderCache\9\999b4aeffa611049371217a5f35f8300.bin
+  - path: WowieJam2022\Library\ShaderCache\2\2817b8df95f2ce5b8793a38408ba37e4.bin
+    fullPath: C:\Users\keith\OneDrive\Desktop\LowesJam2022\WowieJam2022\Library\ShaderCache\2\2817b8df95f2ce5b8793a38408ba37e4.bin
+    projectPath: Library\ShaderCache\2\2817b8df95f2ce5b8793a38408ba37e4.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: WowieJam2022\Library\ShaderCache\4\41e861e66566a49e54a1be8e5e4bc00d.bin
+    fullPath: C:\Users\keith\OneDrive\Desktop\LowesJam2022\WowieJam2022\Library\ShaderCache\4\41e861e66566a49e54a1be8e5e4bc00d.bin
+    projectPath: Library\ShaderCache\4\41e861e66566a49e54a1be8e5e4bc00d.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: WowieJam2022\Library\ShaderCache\9\94148cbb13552b59f6ec8b7968f3c9bf.bin
+    fullPath: C:\Users\keith\OneDrive\Desktop\LowesJam2022\WowieJam2022\Library\ShaderCache\9\94148cbb13552b59f6ec8b7968f3c9bf.bin
+    projectPath: Library\ShaderCache\9\94148cbb13552b59f6ec8b7968f3c9bf.bin
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -682,219 +244,39 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: WowieJam2022\Library\StateCache\MainStageHierarchy\4d\4d2a36d9faf65734f0bbefb3ee623532.json
-    fullPath: C:\Users\keith\OneDrive\Desktop\LowesJam2022\WowieJam2022\Library\StateCache\MainStageHierarchy\4d\4d2a36d9faf65734f0bbefb3ee623532.json
-    projectPath: Library\StateCache\MainStageHierarchy\4d\4d2a36d9faf65734f0bbefb3ee623532.json
+  - path: WowieJam2022\Library\StateCache\PrefabStageHierarchy\21\21696e25973957263cdef4665d3d20da.json
+    fullPath: C:\Users\keith\OneDrive\Desktop\LowesJam2022\WowieJam2022\Library\StateCache\PrefabStageHierarchy\21\21696e25973957263cdef4665d3d20da.json
+    projectPath: Library\StateCache\PrefabStageHierarchy\21\21696e25973957263cdef4665d3d20da.json
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: WowieJam2022\Library\StateCache\SceneView\8c\8cd7c613bf844de3b80696e27a479d5e.json
-    fullPath: C:\Users\keith\OneDrive\Desktop\LowesJam2022\WowieJam2022\Library\StateCache\SceneView\8c\8cd7c613bf844de3b80696e27a479d5e.json
-    projectPath: Library\StateCache\SceneView\8c\8cd7c613bf844de3b80696e27a479d5e.json
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: WowieJam2022\Library\StateCache\PrefabStageHierarchy\64\64253e03ca6175eb3d16dbbaa740b14d.json
+    fullPath: C:\Users\keith\OneDrive\Desktop\LowesJam2022\WowieJam2022\Library\StateCache\PrefabStageHierarchy\64\64253e03ca6175eb3d16dbbaa740b14d.json
+    projectPath: Library\StateCache\PrefabStageHierarchy\64\64253e03ca6175eb3d16dbbaa740b14d.json
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: WowieJam2022\Logs\AssetImportWorker0.log
-    fullPath: C:\Users\keith\OneDrive\Desktop\LowesJam2022\WowieJam2022\Logs\AssetImportWorker0.log
-    projectPath: Logs\AssetImportWorker0.log
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: WowieJam2022\Library\StateCache\SceneView\5f\5f2e613a3c3fb5613139f82dd94832a9.json
+    fullPath: C:\Users\keith\OneDrive\Desktop\LowesJam2022\WowieJam2022\Library\StateCache\SceneView\5f\5f2e613a3c3fb5613139f82dd94832a9.json
+    projectPath: Library\StateCache\SceneView\5f\5f2e613a3c3fb5613139f82dd94832a9.json
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: WowieJam2022\Logs\AssetImportWorker0-prev.log
-    fullPath: C:\Users\keith\OneDrive\Desktop\LowesJam2022\WowieJam2022\Logs\AssetImportWorker0-prev.log
-    projectPath: Logs\AssetImportWorker0-prev.log
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: WowieJam2022\Library\StateCache\SceneView\b0\b0ac0f3a56dd130bb542dfcfe8cf5044.json
+    fullPath: C:\Users\keith\OneDrive\Desktop\LowesJam2022\WowieJam2022\Library\StateCache\SceneView\b0\b0ac0f3a56dd130bb542dfcfe8cf5044.json
+    projectPath: Library\StateCache\SceneView\b0\b0ac0f3a56dd130bb542dfcfe8cf5044.json
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: WowieJam2022\Logs\shadercompiler-AssetImportWorker0.log
-    fullPath: C:\Users\keith\OneDrive\Desktop\LowesJam2022\WowieJam2022\Logs\shadercompiler-AssetImportWorker0.log
-    projectPath: Logs\shadercompiler-AssetImportWorker0.log
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
+    indexStatus: 1
+    workTreeStatus: 1
   - path: WowieJam2022\Logs\shadercompiler-UnityShaderCompiler.exe0.log
     fullPath: C:\Users\keith\OneDrive\Desktop\LowesJam2022\WowieJam2022\Logs\shadercompiler-UnityShaderCompiler.exe0.log
     projectPath: Logs\shadercompiler-UnityShaderCompiler.exe0.log
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: WowieJam2022\Logs\shadercompiler-UnityShaderCompiler.exe1.log
-    fullPath: C:\Users\keith\OneDrive\Desktop\LowesJam2022\WowieJam2022\Logs\shadercompiler-UnityShaderCompiler.exe1.log
-    projectPath: Logs\shadercompiler-UnityShaderCompiler.exe1.log
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: WowieJam2022\Logs\shadercompiler-UnityShaderCompiler.exe2.log
-    fullPath: C:\Users\keith\OneDrive\Desktop\LowesJam2022\WowieJam2022\Logs\shadercompiler-UnityShaderCompiler.exe2.log
-    projectPath: Logs\shadercompiler-UnityShaderCompiler.exe2.log
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: WowieJam2022\obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
-    fullPath: C:\Users\keith\OneDrive\Desktop\LowesJam2022\WowieJam2022\obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
-    projectPath: obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: WowieJam2022\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache
-    fullPath: C:\Users\keith\OneDrive\Desktop\LowesJam2022\WowieJam2022\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache
-    projectPath: obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: WowieJam2022\obj\Debug\Unity.2D.Animation.Editor.csprojAssemblyReference.cache
-    fullPath: C:\Users\keith\OneDrive\Desktop\LowesJam2022\WowieJam2022\obj\Debug\Unity.2D.Animation.Editor.csprojAssemblyReference.cache
-    projectPath: obj\Debug\Unity.2D.Animation.Editor.csprojAssemblyReference.cache
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: WowieJam2022\obj\Debug\Unity.2D.Animation.Runtime.csprojAssemblyReference.cache
-    fullPath: C:\Users\keith\OneDrive\Desktop\LowesJam2022\WowieJam2022\obj\Debug\Unity.2D.Animation.Runtime.csprojAssemblyReference.cache
-    projectPath: obj\Debug\Unity.2D.Animation.Runtime.csprojAssemblyReference.cache
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: WowieJam2022\obj\Debug\Unity.2D.IK.Runtime.csprojAssemblyReference.cache
-    fullPath: C:\Users\keith\OneDrive\Desktop\LowesJam2022\WowieJam2022\obj\Debug\Unity.2D.IK.Runtime.csprojAssemblyReference.cache
-    projectPath: obj\Debug\Unity.2D.IK.Runtime.csprojAssemblyReference.cache
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: WowieJam2022\obj\Debug\Unity.InputSystem.csprojAssemblyReference.cache
-    fullPath: C:\Users\keith\OneDrive\Desktop\LowesJam2022\WowieJam2022\obj\Debug\Unity.InputSystem.csprojAssemblyReference.cache
-    projectPath: obj\Debug\Unity.InputSystem.csprojAssemblyReference.cache
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: WowieJam2022\obj\Debug\Unity.Mathematics.csprojAssemblyReference.cache
-    fullPath: C:\Users\keith\OneDrive\Desktop\LowesJam2022\WowieJam2022\obj\Debug\Unity.Mathematics.csprojAssemblyReference.cache
-    projectPath: obj\Debug\Unity.Mathematics.csprojAssemblyReference.cache
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: WowieJam2022\obj\Debug\Unity.Services.Core.Editor.csprojAssemblyReference.cache
-    fullPath: C:\Users\keith\OneDrive\Desktop\LowesJam2022\WowieJam2022\obj\Debug\Unity.Services.Core.Editor.csprojAssemblyReference.cache
-    projectPath: obj\Debug\Unity.Services.Core.Editor.csprojAssemblyReference.cache
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: WowieJam2022\obj\Debug\Unity.TextMeshPro.Editor.csprojAssemblyReference.cache
-    fullPath: C:\Users\keith\OneDrive\Desktop\LowesJam2022\WowieJam2022\obj\Debug\Unity.TextMeshPro.Editor.csprojAssemblyReference.cache
-    projectPath: obj\Debug\Unity.TextMeshPro.Editor.csprojAssemblyReference.cache
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: WowieJam2022\obj\Debug\Unity.Timeline.csprojAssemblyReference.cache
-    fullPath: C:\Users\keith\OneDrive\Desktop\LowesJam2022\WowieJam2022\obj\Debug\Unity.Timeline.csprojAssemblyReference.cache
-    projectPath: obj\Debug\Unity.Timeline.csprojAssemblyReference.cache
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: WowieJam2022\obj\Debug\UnityEditor.UI.csprojAssemblyReference.cache
-    fullPath: C:\Users\keith\OneDrive\Desktop\LowesJam2022\WowieJam2022\obj\Debug\UnityEditor.UI.csprojAssemblyReference.cache
-    projectPath: obj\Debug\UnityEditor.UI.csprojAssemblyReference.cache
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: WowieJam2022\obj\Debug\UnityEngine.UI.csprojAssemblyReference.cache
-    fullPath: C:\Users\keith\OneDrive\Desktop\LowesJam2022\WowieJam2022\obj\Debug\UnityEngine.UI.csprojAssemblyReference.cache
-    projectPath: obj\Debug\UnityEngine.UI.csprojAssemblyReference.cache
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: WowieJam2022\Temp\Assembly-CSharp.dll.hash
-    fullPath: C:\Users\keith\OneDrive\Desktop\LowesJam2022\WowieJam2022\Temp\Assembly-CSharp.dll.hash
-    projectPath: Temp\Assembly-CSharp.dll.hash
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: WowieJam2022\Temp\CompilationLog.txt
-    fullPath: C:\Users\keith\OneDrive\Desktop\LowesJam2022\WowieJam2022\Temp\CompilationLog.txt
-    projectPath: Temp\CompilationLog.txt
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
   - path: WowieJam2022\Temp\UnityLockfile
     fullPath: C:\Users\keith\OneDrive\Desktop\LowesJam2022\WowieJam2022\Temp\UnityLockfile
     projectPath: Temp\UnityLockfile
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: WowieJam2022\Temp\UnityTempFile-028c8fdb14ff9884eb50d3a052b7b43d
-    fullPath: C:\Users\keith\OneDrive\Desktop\LowesJam2022\WowieJam2022\Temp\UnityTempFile-028c8fdb14ff9884eb50d3a052b7b43d
-    projectPath: Temp\UnityTempFile-028c8fdb14ff9884eb50d3a052b7b43d
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: WowieJam2022\Temp\UnityTempFile-281149da20bfc384695efcd1d0911f1f
-    fullPath: C:\Users\keith\OneDrive\Desktop\LowesJam2022\WowieJam2022\Temp\UnityTempFile-281149da20bfc384695efcd1d0911f1f
-    projectPath: Temp\UnityTempFile-281149da20bfc384695efcd1d0911f1f
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: WowieJam2022\Temp\UnityTempFile-5542df8f4bad93e4ba30e055da93fa63
-    fullPath: C:\Users\keith\OneDrive\Desktop\LowesJam2022\WowieJam2022\Temp\UnityTempFile-5542df8f4bad93e4ba30e055da93fa63
-    projectPath: Temp\UnityTempFile-5542df8f4bad93e4ba30e055da93fa63
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: WowieJam2022\Temp\UnityTempFile-6acc0ca0bbc9d41448d3ddf0a0004c04
-    fullPath: C:\Users\keith\OneDrive\Desktop\LowesJam2022\WowieJam2022\Temp\UnityTempFile-6acc0ca0bbc9d41448d3ddf0a0004c04
-    projectPath: Temp\UnityTempFile-6acc0ca0bbc9d41448d3ddf0a0004c04
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: WowieJam2022\Temp\UnityTempFile-727a615768ee2054b951dcdc11282096
-    fullPath: C:\Users\keith\OneDrive\Desktop\LowesJam2022\WowieJam2022\Temp\UnityTempFile-727a615768ee2054b951dcdc11282096
-    projectPath: Temp\UnityTempFile-727a615768ee2054b951dcdc11282096
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: WowieJam2022\Temp\UnityTempFile-889298e33897193489a4c4dbeee9873d
-    fullPath: C:\Users\keith\OneDrive\Desktop\LowesJam2022\WowieJam2022\Temp\UnityTempFile-889298e33897193489a4c4dbeee9873d
-    projectPath: Temp\UnityTempFile-889298e33897193489a4c4dbeee9873d
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: WowieJam2022\Temp\UnityTempFile-ba611545ade5b254591c409e7441c1cf
-    fullPath: C:\Users\keith\OneDrive\Desktop\LowesJam2022\WowieJam2022\Temp\UnityTempFile-ba611545ade5b254591c409e7441c1cf
-    projectPath: Temp\UnityTempFile-ba611545ade5b254591c409e7441c1cf
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: WowieJam2022\Temp\UnityTempFile-c2769b5de85c59f49bc835f2e02ed7c3
-    fullPath: C:\Users\keith\OneDrive\Desktop\LowesJam2022\WowieJam2022\Temp\UnityTempFile-c2769b5de85c59f49bc835f2e02ed7c3
-    projectPath: Temp\UnityTempFile-c2769b5de85c59f49bc835f2e02ed7c3
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: WowieJam2022\Temp\UnityTempFile-cc836626387bd484785655c445c3d462
-    fullPath: C:\Users\keith\OneDrive\Desktop\LowesJam2022\WowieJam2022\Temp\UnityTempFile-cc836626387bd484785655c445c3d462
-    projectPath: Temp\UnityTempFile-cc836626387bd484785655c445c3d462
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: WowieJam2022\Temp\UnityTempFile-cf9229c2d45208640a8cf2c169f2e5b7
-    fullPath: C:\Users\keith\OneDrive\Desktop\LowesJam2022\WowieJam2022\Temp\UnityTempFile-cf9229c2d45208640a8cf2c169f2e5b7
-    projectPath: Temp\UnityTempFile-cf9229c2d45208640a8cf2c169f2e5b7
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: WowieJam2022\Temp\UnityTempFile-d28a2058870532b46b5157c924b044a2
-    fullPath: C:\Users\keith\OneDrive\Desktop\LowesJam2022\WowieJam2022\Temp\UnityTempFile-d28a2058870532b46b5157c924b044a2
-    projectPath: Temp\UnityTempFile-d28a2058870532b46b5157c924b044a2
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: WowieJam2022\Temp\UnityTempFile-eec1ae0f4a3d84546abd3b74f57362f0
-    fullPath: C:\Users\keith\OneDrive\Desktop\LowesJam2022\WowieJam2022\Temp\UnityTempFile-eec1ae0f4a3d84546abd3b74f57362f0
-    projectPath: Temp\UnityTempFile-eec1ae0f4a3d84546abd3b74f57362f0
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: WowieJam2022\Temp\UnityTempFile-f56c2afe802566d45ab7e8cff0495e44
-    fullPath: C:\Users\keith\OneDrive\Desktop\LowesJam2022\WowieJam2022\Temp\UnityTempFile-f56c2afe802566d45ab7e8cff0495e44
-    projectPath: Temp\UnityTempFile-f56c2afe802566d45ab7e8cff0495e44
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
